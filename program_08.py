@@ -1,5 +1,9 @@
-lst = [8,10,22,56,97]
+nums = [40,8,22,43,9,70]
 
-a = 8
+min_element = nums[0]
 
-print(8)
+for i in nums:
+    if i < min_element:
+        min_element = i
+
+print("Minimum element:", min_element)

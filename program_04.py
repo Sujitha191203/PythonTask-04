@@ -1,4 +1,7 @@
-num = 123456789
+num = input("Enter a number: ")
 
-a = int(str(num)[0]) + int(str(num)[-1])
-print(a)
+first_digit = num[0]
+last_digit = num[-1]
+
+print("First digit:", first_digit)
+print("Last digit:", last_digit)
